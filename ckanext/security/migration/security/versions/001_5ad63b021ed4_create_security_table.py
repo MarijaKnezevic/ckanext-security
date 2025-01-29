@@ -8,6 +8,11 @@ Create Date: 2025-01-24 18:36:01.318092
 from alembic import op
 import sqlalchemy as sa
 
+revision = '5ad63b021ed4'
+down_revision = None
+branch_labels = None
+depends_on = None
+
 
 def upgrade():
     op.create_table(
