@@ -30,7 +30,7 @@ class CkanSecurityPlugin(MixinPlugin, p.SingletonPlugin):
         # TODO: upstream contrib??
 
         tk.add_template_directory(config, '../templates')
-        tk.add_resource('../fanstatic', 'security')
+        tk.add_resource('../assets', 'security')
 
     # END Hooks for IConfigurer
 
