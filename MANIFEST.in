@@ -1,4 +1,3 @@
 recursive-include ckanext/security/templates *
 recursive-include ckanext/*/migration *
-recursive-include ckanext/security/assets  *.html *.json *.js *.less *.css *.mo *.yml
 
